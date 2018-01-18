@@ -1,0 +1,90 @@
+.container {
+  /*border: 1px solid red;*/
+}
+
+.container .aut-form,
+.container .reg-form {
+  max-width: 300px;
+  min-width: 200px;
+  margin: 4rem auto;
+}
+
+.aut-form input[type="email"],
+.aut-form input[type="text"] {
+  margin-bottom: -17px;
+  padding: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.aut-form input[type="password"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.reg-form input {
+  padding: 10px;
+}
+
+.aut-form button,
+.reg-form button {
+  padding: 10px;
+}
+
+.aut-form a {
+  padding: 10px;
+}
+
+.aut-form label {
+  margin-bottom: .5rem;
+}
+
+.aut-form .btn-account {
+  margin-top: 20px;
+}
+
+.reg-form .error,
+.aut-form .error {
+  display: none;
+  color: #bd4147;
+}
+
+#game-field table{
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#game-field table td{
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #abc;
+  font-family: Arial;
+  font-size: 1.6em;
+  text-align: center;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#start {
+  margin-top: 1em;
+}
+
+.message{
+  width: 400px;
+  margin: 0 auto;
+  display: none;
+}
+
+/*--------------media----------------*/
+@media screen and (min-width: 455px) {
+    body {
+        background-color: lightgreen;
+    }
+}
